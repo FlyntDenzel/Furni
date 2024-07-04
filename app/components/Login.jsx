@@ -11,7 +11,7 @@ const Login = async () => {
       {session ? (
         <Link href="/api/auth/signout?callbackUrl=/">Log Out</Link>
       ) : (
-        <Link href="/api/auth/signin">Sign In</Link>
+        <Link href="/api/auth/signin">Create Product</Link>
       )}
     </div>
   );
