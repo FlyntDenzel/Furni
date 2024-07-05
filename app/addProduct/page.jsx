@@ -1,8 +1,11 @@
 import React from 'react'
+import UploadForm from '../components/UploadForm'
 
 const AddProduct = () => {
   return (
-    <div>AddProduct</div>
+    <div>
+      <UploadForm />
+    </div>
   )
 }
 
